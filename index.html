@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <main class="container">
+      <!-- Background -->
+      <div class="background"></div>
+
+      <!-- Top -->
+      <header class="header">
+        <h1 class="header__title">Simple, traffic-based pricing</h1>
+        <p class="header__description">
+          Sign-up for our 30-day trial.<br />
+          No credit card required.
+        </p>
+      </header>
+
+      <!-- Component -->
+      <section class="compo">
+        <!-- Pageviews -->
+        <p class="compo__page">100k pageviews</p>
+
+        <!-- Input Range -->
+        <input
+          type="range"
+          max="5"
+          min="1"
+          value="3"
+          class="compo__slider"
+          id="range-slider"
+        />
+
+        <!-- Component Price -->
+        <div class="compo__price">
+          <h2>&dollar;16.00</h2>
+          <span class="compo__price--range">/ month</span>
+        </div>
+
+        <!-- Component Billings -->
+        <div class="compo__billing">
+          <span class="compo__billing--month">Monthly Billing</span>
+          <div class="compo__toggle">
+            <input
+              class="compo__billing--check"
+              type="checkbox"
+              id="bill-checkbox"
+            />
+            <label class="compo__billing--label" for="bill-checkbox">
+              <div class="ball"></div
+            ></label>
+          </div>
+          <span class="compo__billing--year">Yearly Billing</span>
+          <span class="compo__billing--discount">-25%</span>
+          <span class="compo__billing--discount-lg">-25% discount</span>
+        </div>
+
+        <!-- Component Support -->
+        <ul class="compo__support">
+          <li>
+            <img src="./src/images/icon-check.svg" alt="Check Icon" />
+            <p>Unlimited websites</p>
+          </li>
+
+          <li>
+            <img src="./src/images/icon-check.svg" alt="Check Icon" />
+            <p>100% data ownership</p>
+          </li>
+
+          <li>
+            <img src="./src/images/icon-check.svg" alt="Check Icon" />
+            <p>Email reports</p>
+          </li>
+        </ul>
+
+        <!-- Trial Button -->
+        <button class="compo__button" id="trial-button">Start my trial</button>
+      </section>
+    </main>
+
+    <!-- 
+  $ /month-->
+
+    <!-- JS -->
+    <script src="./src/app.js"></script>
+  </body>
+</html>
