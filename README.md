@@ -20,5 +20,5 @@ Here are the different page view ranges and the corresponding monthly price tota
 
 If the visitor switches the toggle to yearly billing, a 25% discount should be applied to all prices.
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobile-first-html5-css-vanillajs-5iyYSlTZH)
 - Live Site URL: [Netlify](https://ed-interective-pricing-component.netlify.app/)
